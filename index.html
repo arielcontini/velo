@@ -12,13 +12,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-<link rel="stylesheet" href="see.css">
+<link rel="stylesheet" href="velo.css">
     <!-- Demo styles -->
     <style>
         :root{
     --white:rgba(255,255,255,.99);
-    --black: rgba(10,10,10,10);
-    --orange:rgba(0,0,0,.25);
+    --black: rgba(20,20,20,1);
     --sm:16px;
     --md:18px;
     --lg:21px;
@@ -28,7 +27,7 @@
         position: relative;
         height: 100%;
       }
-
+      
       body {
         background: var(--white);
         color: var(--black);
@@ -75,7 +74,7 @@
             <img src="bg1.png">
         </div>
 
-        <div class="swiper-slide">  
+        <div class="dark-mode swiper-slide">  
         <div>  
             <p>
             Los pedales dan la vuelta, y vuelven a darla, mecánicamente. Compartiendo el centro, suspendidos, acaso sin 
@@ -103,7 +102,7 @@
                 <img src="bg2.png">
             </div>
 
-        <div class="swiper-slide">  
+        <div class="dark-mode swiper-slide">  
         <div>
             <p>
                 Confundido, llegando al semáforo en rojo apreté el freno de adelante y caí de costado al piso como un 
@@ -129,7 +128,7 @@
         </div>
 
 
-        <div class="swiper-slide"> 
+        <div class="dark-mode swiper-slide"> 
         <div>
             <p>     
                 Cuando el líquido cubrió mis ojos, comencé a caminar por una playa ocre y calurosa. Un hombre en un altar daba 
@@ -149,7 +148,7 @@
         </div> 
 
 
-        <div class="swiper-slide">  
+        <div class="dark-mode swiper-slide">  
     <div>
     <p>    
     El ruido ensordecedor del viento y el estallido de una ola a un costado de donde me hallaba, echaron sobre 
@@ -178,8 +177,9 @@
         </div>
 
 
-        <div class="swiper-slide">
+        <div class="dark-mode swiper-slide">
 <div>
+  <p class="titulo">CANCIONES</p>
 <ul class="tracklist">
 
               <li><a href="#1" onClick="EvalSound('song1'); return true;">1. Laberinto</a></li>
@@ -209,23 +209,24 @@
            </div>
 
 
-        <div class="swiper-slide">
+<div class="creditos swiper-slide">
 <div>
-  <p class="velo-bold">CREDITOS </p>
- <ul class="creditos">
+  <p class="titulo">CREDITOS </p>
+ <ul>
                 <li>Composición, Mahuro Coletti</li>
                 <li>Arte gráfico, Jacinta Vilalta</li>
                 <li>Diseño web, Deboogui</li>
  </ul>
-                <p>Guitarra y voz, Mahuro Coletti
-                Voz, Flor Curcio
-                Acordeón, Margarita Brassara
-                track 1 al 6 grabados y mezclados en Ideomusic, por Mariano Miguez en 2021/22
-                track 7 mezclado y producido en el taller de Shaman Herrera en 2020
-                Masterizado en Ideomusic por Mariano Miguez
-              </p>
-
-                <p class="velo-bold">AGRADECIMIENTOS </p>
+ <ul>
+  <li>Guitarra y voz, Mahuro Coletti</li>
+    <li>Voz, Flor Curcio</li>
+      <li>Acordeón, Margarita Brassara</li>
+        <li>track 1 al 6 grabados y mezclados en Ideomusic, por Mariano Miguez en 2021/22</li>
+          <li>track 7 mezclado y producido en el taller de Shaman Herrera en 2020</li>
+            <li>Masterizado en Ideomusic por Mariano Miguez</li>
+             
+ </ul>
+                <p class="titulo">AGRADECIMIENTOS </p>
                  <p>
                 Deboogui, Jacinta Vilalta, Santiago Iglesias, Dante Mercuri, David Guzmán, Carmen Baliero, 
                 Flor Curcio, Margarita Brassara, Mariano Miguez, Melina Moguilevsky, Camila Spíndola, 
@@ -234,7 +235,7 @@
 
             </div>
         </div>
-        <div class="swiper-slide">FREESPACE</div>
+        <div class="swiper-slide"></div>
       </div>
       <!-- <div class="swiper-pagination"></div> -->
     </div>

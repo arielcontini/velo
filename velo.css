@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 p{    
-font-size: 17px;
+font-size: var(--sm);
 font-family: 'Libre Baskerville', serif;
 text-align: left;
 padding: 5px;
@@ -46,7 +46,7 @@ font-size: var(--md);
 }
 .prosa{
     font-style: italic;
-    font-size: var(--lg);
+    font-size: var(--sm);
     width: 80%;
     margin: 10px;
     padding: 20px;
@@ -59,7 +59,7 @@ font-size: var(--md);
 
 .creditos{
 font-family: 'Libre Baskerville', serif;
-font-size: var(--md);
+font-size: var(--sm);
 width: 40%;
 height: auto;
 background: var(--black);
@@ -67,7 +67,7 @@ color:var(--white)
 }
 
 .tracklist{
-font-size: var(--md);
+    font-size: var(--sm);
 font-family: 'Libre Baskerville', serif;
 width: 100%;
 height: auto;
